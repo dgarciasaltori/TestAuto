@@ -1,7 +1,6 @@
 #Code por Diego Saltori
 #UTF-8
-#Execute o comando: pytest --html=report.html LoginComentario.py
-#Será gerado automaticamente o arquivo html na pasta raiz contendo o report do teste
+
 import select
 import pytest
 import logging
@@ -19,21 +18,10 @@ from selenium.webdriver.common.keys import Keys
 #Criando Log de Eventos 
 
 logging.basicConfig(filename='test_log.log', level=logging.INFO)
-#pytest.logger.info("Preenchendo o campo de comentário")
-
 
 #Criando log de video - 
 #Execute seus testes usando o comando "pytest --video-recording-options=fps=15,codec=vp9 <nome_do_teste.py>
 pytestmark = pytest.mark.usefixtures("video_recording")
-
-#Webdriver pode ser usado: webdriver.Chrome(), webdriver.Firefox(), webdriver.Edge() ou webdriver.Chromium()
-
-#Usando o pytestmark
-#@pytest.mark.browser
-#def test_example(browser):
-#    browser.get("https://www.example.com")
-#    assert "Example" in browser.title
-#Usar o comando: pytest --browser=chrome test_example.py
 
 #Acessando o site
 def test_access_website():
