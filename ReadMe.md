@@ -1,4 +1,10 @@
-Estrutura de teste automatizado utilizando Python
+Estrutura de teste automatizado utilizando Python com report HTML e Video
+
+Este projeto faz parte de um estudo inicial de automação de testes utilizando python/pytest com auxilio do framework Selenium para realizar testes funcionais em aplicações web.
+
+Caso tenha interesse em deixar comentários, feedbacks ou criticas estarei sempre a disposição para conversa.
+
+O intuito é melhorar e aprimorar o conhecimento.
 
 Bibliotecas utilizadas
 
