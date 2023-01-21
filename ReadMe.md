@@ -20,7 +20,7 @@ Este é um primeiro projeto que deixo aqui no Github como publico para poder ir 
 
 ---------------------------------------------------------------------------------------------------------------------
 
-* Estrutura de teste automatizado utilizando Python com report HTML e Video
+* Estrutura de teste automatizado utilizando Python com report HTML
 
 Este projeto faz parte de um estudo inicial de automação de testes utilizando python/pytest com auxilio do framework Selenium para realizar testes funcionais em aplicações web.
 
