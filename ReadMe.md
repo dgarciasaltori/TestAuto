@@ -46,6 +46,7 @@ Na IDE de sua escolha, abra o repositório e atravez do terminal: basta digitar 
 No CMD ou Terminal do seu sistema operacional, acesse o diretório do repositório:
 "Ex: cd /usuário/source/repo" basta digitar no terminal o comando que encontra-se na linha 3 do arquivo "comentario.py".
 
+Video: https://youtu.be/OXMU8aqI27E
 
 ---------------------------------------------------------------------------------------------------------------------
 
