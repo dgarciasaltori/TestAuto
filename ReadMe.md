@@ -22,6 +22,8 @@ Este é um primeiro projeto que deixo aqui no Github como publico para poder ir 
 
 * Estrutura de teste automatizado utilizando Python com report HTML
 
+Faça o clone deste repositório: git@github.com:dgarciasaltori/TestAuto.git
+
 Este projeto faz parte de um estudo inicial de automação de testes utilizando python/pytest com auxilio do framework Selenium para realizar testes funcionais em aplicações web.
 
 Caso tenha interesse em deixar comentários, feedbacks ou criticas estarei sempre a disposição para conversa.
@@ -35,9 +37,15 @@ Selenium e Pytest são os principais
 
 ---------------------------------------------------------------------------------------------------------------------
 
-Necessário o complemento de algumas ações dentro do código para que o mesmo funcione:
+Necessário o complemento de algumas ações dentro do código para que o mesmo funcione.
+Iniciando o teste:
+Pode ser usando o IDE ou através do prompt de comando. 
 
-image.png
+Na IDE de sua escolha, abra o repositório e atravez do terminal: basta digitar no terminal o comando que encontra-se na linha 3 do arquivo "comentario.py".
+
+No CMD ou Terminal do seu sistema operacional, acesse o diretório do repositório:
+"Ex: cd /usuário/source/repo" basta digitar no terminal o comando que encontra-se na linha 3 do arquivo "comentario.py".
+
 
 ---------------------------------------------------------------------------------------------------------------------
 

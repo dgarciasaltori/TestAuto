@@ -97,3 +97,18 @@
 #Criando Video
 # def teardown_module(module):
 #     shutil.move("test_video.mp4","videos")
+
+def pytest_runtest_makereport(item, call):
+            if "incremental" in item.keywords:
+                if call.excinfo is not None:
+                    extra = getattr(item, "extra", {})
+                    extra['browser'] = item.funcargs['browser']
+                    item.extra = extra
+        def pytest_html_results_table_row(report, cells):
+            if report.when == 'call':
+                if 'browser' in report.extra:
+                    browser = report.extra['browser']
+                    browser.save_screenshot('screenshot.png')
+                    cells.insert(2, html.td(html.img(src='screenshot.png', height=120)))
+        def pytest_html_results_table_header(cells):
+            cells.insert(2, html.th('Screenshot'))
