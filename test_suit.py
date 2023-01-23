@@ -11,7 +11,7 @@
 
 import os, time , subprocess
 
-path = 'C:\\Users\\Diego\\source\\repos\\TestAuto\\test_suite'
+path = 'C:\\Users\\Diego\\source\\repos\\TestAuto\\'
 
 report_file = "report.html"
 
