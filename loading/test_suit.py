@@ -15,24 +15,24 @@ path = 'C:\\Users\\Diego\\source\\repos\\TestAuto\\'
 
 report_file = "report.html"
 
-for opensite in os.listdir(path):
-    if opensite.endswith(".py"):
-        subprocess.run(["pytest", "--html="+report_file, opensite])
+# for opensite in os.listdir(path):
+#     if opensite.endswith(".py"):
+#         subprocess.run(["pytest", "--html="+report_file + "_opensite", opensite])
 
 time.sleep(1)
 
 for login_error in os.listdir(path):
    if login_error.endswith(".py"):
-       subprocess.run(["pytest", "--html="+report_file, login_error])
+       subprocess.run(["pytest", "--html="+report_file + "_login_error", login_error])
 
 time.sleep(1)
 
 for login_sucess in os.listdir(path):
    if login_sucess.endswith(".py"):
-       subprocess.run(["pytest", "--html="+report_file, login_sucess])
+       subprocess.run(["pytest", "--html="+report_file + "_login_sucess", login_sucess])
 
 time.sleep(1)
 
 for add_comment in os.listdir(path):
    if add_comment.endswith(".py"):
-       subprocess.run(["pytest", "--html="+report_file, add_comment])
+       subprocess.run(["pytest", "--html="+report_file + "_add_comment", add_comment])
