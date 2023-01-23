@@ -1,6 +1,11 @@
 #Code por Diego Saltori
 #Language - PT-BR, EN-US
 #UTF-8
+
+#Ativando ambiente virtual no terminal: p3\Scripts\activate
+#Desativando no terminal: deactivate
+#Activating virtual environment in terminal: p3\Scripts\activate
+#Deactivating in the terminal: deactivate
 #Para rodar o código: pytest --html=report.html comentario.py
 #To run the code: pytest --html=report.html comentario.py
 
